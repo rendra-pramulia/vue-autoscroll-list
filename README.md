@@ -38,6 +38,9 @@ $ yarn add vue-autoscroll-list
 
 <script>
 import AutoScroll from 'vue-autoscroll-list'
+import Vue from 'vue'
+
+Vue.use(AutoScroll)
 
 export default {
   components: {
