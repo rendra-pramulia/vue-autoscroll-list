@@ -47,7 +47,7 @@ export default {
     this.$nextTick(() => {
       $('.outer').css({ maxHeight: $('.inner').height() })
       $('.inner').html($('.inner').html() + $('.inner').html())
-      if (this.animation === 'dtu') {
+      if (this.animationFlow === 'dtu') {
         setInterval(() => {
           const childHeight = $('.inner').children().first().outerHeight()
           $('.inner').stop().animate({scrollTop: childHeight}, this.speed, 'linear', function(){

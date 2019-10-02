@@ -1,6 +1,6 @@
 {
   "name": "vue-autoscroll-list",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "main": "dist/AutoScroll.umd.js",
   "module": "dist/AutoScroll.esm.js",
   "unpkg": "dist/AutoScroll.min.js",

@@ -41,6 +41,7 @@ Directive AutoScroll then can be used in any of your Component.
 | `animationFlow`|for animation direction `'utd'` (up to down) / `'dtu'` (down to top)|`'utd'`|`String`|
 |`animationSpeed`|speed of scroll|`2500`|`Number`
 |`animationInterval`|interval to the next scroll|`4000`|`Number`|
+|`classOuter`|class for container list|`-`|`String`|
 
 ## Changelog
 
