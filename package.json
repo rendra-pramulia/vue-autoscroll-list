@@ -41,5 +41,12 @@
     "url": "https://github.com/rendra-pramulia/vue-autoscroll-list"
   },
   "author": "rendra_pramulia@yahoo.co.uk",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": [
+    "vue",
+    "vuejs",
+    "directive",
+    "autoscroll",
+    "ticker"
+  ]
 }

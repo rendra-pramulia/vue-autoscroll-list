@@ -5,60 +5,42 @@
 [![npm-version](https://img.shields.io/npm/v/vue-autoscroll-list.svg)](https://www.npmjs.com/package/vue-autoscroll-list)
 [![license](https://img.shields.io/npm/l/express.svg)]()
 
-> A highly customized auto-scroll component
+> auto scroll list (ticker) directive for >= [vuejs 2.0](https://vuejs.org/v2/guide/)
 
-## ✨ Features
-- 🍖 More customizable
-- 👗 Multiple style themes
-- 🎉 Add Speed and Interval
-
-## 📚 Documentation
-
-Document: not yet
-
-Live Demo：not yet
-
-
-## 🎯 install
+## Installation (NPM recomended)
 ```bash
-$ yarn add vue-autoscroll-list
-# npm install vue-autoscroll-list --save
+$ npm install vue-autoscroll-list --save
+# yarn add vue-autoscroll-list
 ```
 
+## Get started
 
-## 🚀 Usage
-```vue
-<template>
-  <AutoScroll :animationFlow="animationFlow" :animationSpeed="animationSpeed" :="animationInterval">
-    <div>1</div>
-    <div>2</div>
-    <div>3</div>
-  </AutoScroll>
-</template>
-
-<script>
-import AutoScroll from 'vue-autoscroll-list'
+```javascript
 import Vue from 'vue'
+import AutoScroll from 'vue-autoscroll-list'
 
 Vue.use(AutoScroll)
-
-export default {
-  components: {
-    AutoScroll
-  },
-  data () {
-    return {
-      // for animation direction default 'utd' (up to down)
-      animationFlow: 'dtu',
-      // for animation speed default 2500
-      animationSpeed: 2500,
-      // for animation interval default 4000
-      animationInterval: 4000
-    }
-  }
-}
-</script>
 ```
+
+Directive AutoScroll then can be used in any of your Component.
+
+```html
+<template>
+  <AutoScroll>
+    <div>1</div>
+    <div>2</div>
+    ...
+  </AutoScroll>
+</template>
+```
+
+## Props Options
+
+|prop|description|default|type|
+|:---|---|---|---|
+| `animationFlow`|for animation direction `'utd'` (up to down) / `'dtu'` (down to top)|`'utd'`|`String`|
+|`animationSpeed`|speed of scroll|`2500`|`Number`
+|`animationInterval`|interval to the next scroll|`4000`|`Number`|
 
 ## Changelog
 
